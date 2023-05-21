@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
+import { BiLinkExternal } from "react-icons/bi";
 
 const Footer = () => {
   return (
@@ -16,13 +17,19 @@ const Footer = () => {
           <Link
             href="https://twitter.com/karimscoding"
             target="_blank"
-            className="text-rose-400"
+            className="text-[13px] md:text-[16px] font-bold text-rose-400"
           >
-            Karim&apos;s Coding
+            <span>Karim&apos;s Coding </span>{" "}
+            <span>
+            <BiLinkExternal className="inline-block"/>
+            </span>
+           
           </Link>
         </p>
       </div>
-      <div className="flex items-center space-x-6">
+
+      {/* footer icons */}
+      {/* <div className="flex items-center space-x-6">
         <a
           href="https://www.facebook.com/faisal.arham.7359?mibextid=ZbWKwL"
           target="_blank"
@@ -44,7 +51,7 @@ const Footer = () => {
         >
           <BsInstagram size={20} />
         </a>
-      </div>
+      </div> */}
     </footer>
   );
 };

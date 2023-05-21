@@ -23,6 +23,10 @@ const ImageSlider = () => {
 
   return (
     <div className=" mt-10 px-4">
+      <div className="mb-10">
+      <h1 className="md:text-3xl text-lg font-bold dark:text-gray-400">Places i love to visit</h1>
+      <p className="text-[13px] md:text-[16px] dark:text-gray-400 ">Follow me for more post like this</p>
+      </div>
       <Swiper
         breakpoints={{
           320: { slidesPerView: 1.3, spaceBetween: 10 },
@@ -51,7 +55,7 @@ const ImageSlider = () => {
               <Image
                 src={video.image}
                 alt={video.title}
-                className="w-full h-full"
+                className="w-90 h-44 rounded-md border-4 border-muted"
               />
               <p className="text-[13px] text-muted-foreground">{video.title}</p>
             </div>
