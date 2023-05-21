@@ -1,14 +1,11 @@
-"use client";
-import videos from "@/constants";
+import React from 'react'
 
 const VideoCard = () => {
   return (
     <div>
-      {videos.map((video) => (
-        <div key={video.videoId}>{video.videoId}</div>
-      ))}
+      <h1>Video Card</h1>
     </div>
-  );
-};
+  )
+}
 
-export default VideoCard;
+export default VideoCard
