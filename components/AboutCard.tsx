@@ -3,8 +3,8 @@
 import Image from "next/image";
 import { faisalKabir } from "@/public/images";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
-import { FaTiktok } from "react-icons/fa";
-
+import { FaTiktok, FaYoutube } from "react-icons/fa";
+import { SiYoutube } from "react-icons/Si";
 
 const AboutCard = () => {
   return (
@@ -21,28 +21,35 @@ const AboutCard = () => {
               the opportunity to immerse myself in different cultures.
             </p>
             <div className="flex items-center space-x-6">
-        <a
-          href="https://www.facebook.com/faisal.arham.7359?mibextid=ZbWKwL"
-          target="_blank"
-          className="text-rose-400"
-        >
-          <BsFacebook size={20} />
-        </a>
-        <a
-          href="https://www.tiktok.com/@faisal5945"
-          target="_blank"
-          className="text-rose-400"
-        >
-          <FaTiktok size={20} />
-        </a>
-        <a
-          href="https://www.instagram.com/diary_of_faisal_/?igshid=MzNlNGNkZWQ4Mg%3D%3D"
-          target="_blank"
-          className="text-rose-400"
-        >
-          <BsInstagram size={20} />
-        </a>
-      </div>
+              <a
+                href="https://www.facebook.com/faisal.arham.7359?mibextid=ZbWKwL"
+                target="_blank"
+                className="text-rose-500"
+              >
+                <BsFacebook size={20} />
+              </a>
+              <a
+                href="https://www.tiktok.com/@faisal5945"
+                target="_blank"
+                className="text-rose-500"
+              >
+                <FaTiktok size={20} />
+              </a>
+              <a
+                href="https://www.instagram.com/diary_of_faisal_/?igshid=MzNlNGNkZWQ4Mg%3D%3D"
+                target="_blank"
+                className="text-rose-500"
+              >
+                <BsInstagram size={20} />
+              </a>
+              <a
+                href="https://www.youtube.com/@skypixelbd1523"
+                target="_blank"
+                className="text-rose-500"
+              >
+                <SiYoutube size={25} />
+              </a>
+            </div>
           </div>
         </div>
 
@@ -51,10 +58,9 @@ const AboutCard = () => {
           width={290}
           height={200}
           alt="about"
-          className="rounded-full md:mt-10 mb-10 border-8 border-muted"
+          className="rounded-full md:mt-10 md:mb-10 border-8 border-muted"
         />
       </div>
-   
     </div>
   );
 };

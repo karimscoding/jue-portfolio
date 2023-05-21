@@ -4,10 +4,22 @@ import Link from "next/link";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
 import { BiLinkExternal } from "react-icons/bi";
+import { hostinger } from "@/public/images";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <footer className="pb-6 pt-10 mt-auto">
+      <Link href="https://hostinger.my?REFERRALCODE=1REJAUL16" target="_blank">
+        <Image
+          src={hostinger}
+          width={800}
+          height={100}
+          alt="hostinger"
+          className="rounded-xl cursor-pointer"
+        />
+      </Link>
+
       <div className="mb-4">
         <p className="text-[13px] md:text-[16px] dark:text-gray-400 mt-3">
           Copyright 2023 | All rights reserved.
@@ -21,12 +33,13 @@ const Footer = () => {
           >
             <span>Karim&apos;s Coding </span>{" "}
             <span>
-            <BiLinkExternal className="inline-block"/>
+              <BiLinkExternal className="inline-block" />
             </span>
-           
           </Link>
         </p>
       </div>
+
+      {/* https://hostinger.my?REFERRALCODE=1REJAUL16 */}
 
       {/* footer icons */}
       {/* <div className="flex items-center space-x-6">

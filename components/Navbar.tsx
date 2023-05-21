@@ -24,12 +24,12 @@ const Navbar = () => {
         >
           About
         </Link>
-        {/* <Link
-          href="/film-making"
+        <Link
+          href="/video"
           className="text-[13px] md:text-sm hover:text-gray-300 transition duration-300"
         >
-          Film Making
-        </Link> */}
+          Video
+        </Link>
       </div>
 
       <ModeToggle />
