@@ -2,6 +2,7 @@
 
 import { BsFacebook, BsFillMoonFill } from "react-icons/bs";
 import Link from "next/link";
+import { ModeToggle } from "./ModeToggle";
 
 const Navbar = () => {
   return (
@@ -20,7 +21,7 @@ const Navbar = () => {
         <Link href="/about" className="cursor-pointer">
           About
         </Link>
-        <BsFillMoonFill size={22} className="cursor-pointer" />
+        <ModeToggle />
       </div>
     </div>
   );
