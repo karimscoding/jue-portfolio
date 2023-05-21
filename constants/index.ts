@@ -1,9 +1,10 @@
 import {
   djiOsmo,
   djiOsmo1,
+  djiOsmo2,
   djiOsmo5,
   djiOsmo3,
-  djiOsmo2,
+  
 } from "@/public/images";
 
 const videos = [
@@ -18,11 +19,11 @@ const videos = [
   },
   {
     title: "Kuantan Pahang, Malaysia",
-    image: djiOsmo3,
+    image: djiOsmo2,
   },
   {
     title: "Kuantan Pahang, Malaysia",
-    image: djiOsmo2,
+    image: djiOsmo3,
   },
 
   {

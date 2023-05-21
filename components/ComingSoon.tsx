@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { IoIosArrowBack } from "react-icons/Io";
+import { IoIosArrowBack } from "react-icons/io";
 
 import { Button } from "@/components/ui/button";
 

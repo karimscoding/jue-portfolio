@@ -10,15 +10,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer className="pb-6 pt-10 mt-auto">
-      <Link href="https://hostinger.my?REFERRALCODE=1REJAUL16" target="_blank">
-        <Image
-          src={hostinger}
-          width={800}
-          height={100}
-          alt="hostinger"
-          className="rounded-xl cursor-pointer"
-        />
-      </Link>
+   
 
       <div className="mb-4">
         <p className="text-[13px] md:text-[16px] dark:text-gray-400 mt-3">
@@ -38,6 +30,16 @@ const Footer = () => {
           </Link>
         </p>
       </div>
+
+      <Link href="https://hostinger.my?REFERRALCODE=1REJAUL16" target="_blank">
+        <Image
+          src={hostinger}
+          width={300}
+          height={50}
+          alt="hostinger"
+          className="rounded-xl cursor-pointer"
+        />
+      </Link>
 
       {/* https://hostinger.my?REFERRALCODE=1REJAUL16 */}
 

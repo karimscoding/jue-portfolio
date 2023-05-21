@@ -4,14 +4,14 @@ import Image from "next/image";
 import { faisalKabir } from "@/public/images";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import { FaTiktok, FaYoutube } from "react-icons/fa";
-import { SiYoutube } from "react-icons/Si";
+import { SiYoutube } from "react-icons/si";
 
 const AboutCard = () => {
   return (
     <div className="mt-10 mb-10">
       <div className="container mx-auto px-4 flex  md:flex-row flex-col-reverse justify-between items-start">
         <div className="md:w-1/2 md:mr-4 flex-grow">
-          <div className="mt-24">
+          <div className="md:mt-24 mt-10">
             <p className="text-sm text-rose-400">Hi, my name is</p>
             <h1 className="text-4xl font-bold dark:text-gray-400 mt-2">
               Faisal Kabir
