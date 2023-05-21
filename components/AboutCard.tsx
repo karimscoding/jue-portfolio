@@ -13,7 +13,7 @@ const AboutCard = () => {
             <h1 className="text-4xl font-bold dark:text-gray-400 mt-2">
               Faisal Kabir
             </h1>
-            <p className="text-sm dark:text-gray-400 mt-4 mb-4">
+            <p className="text-[13px] md:text-[16px] dark:text-gray-400 mt-4 mb-4">
               One of the most rewarding aspects of being a travel filmmaker is
               the opportunity to immerse myself in different cultures. I seek
               out authentic experiences, whether it&apos;s participating in
@@ -27,7 +27,7 @@ const AboutCard = () => {
 
         <Image
           src={faisalKabir}
-          width={150}
+          width={250}
           height={200}
           alt="about"
           className="rounded-full md:mt-10 mb-10"

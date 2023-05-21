@@ -8,10 +8,10 @@ const Footer = () => {
   return (
     <footer className="pb-6 pt-10 mt-auto">
       <div className="mb-4">
-        <p className="text-[13px] md:text-sm dark:text-gray-400 mt-3">
+        <p className="text-[13px] md:text-[16px] dark:text-gray-400 mt-3">
           Copyright 2023 | All rights reserved.
         </p>
-        <p className="text-[13px] md:text-sm dark:text-gray-400">
+        <p className="text-[13px] md:text-[16px] dark:text-gray-400">
           Develop and deployed by{" "}
           <Link
             href="https://twitter.com/karimscoding"
