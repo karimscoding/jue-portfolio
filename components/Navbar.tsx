@@ -6,23 +6,33 @@ import { ModeToggle } from "./ModeToggle";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center md:mt-4 md:mb-4">
-      <div>
-        <Link href="/" className="text-2xl font-bold">
-          Diary of Faisal
-        </Link>
-        <p className="text-md">Travel Film Maker</p>
-      </div>
+    <div className="flex justify-between items-center border-b-[1px] py-4">
+      <Link href="/">
+        <h3 className="text-xl font-bold">Faisal</h3>
+      </Link>
 
-      <div className="flex items-center gap-10">
-        <Link href="film" className="cursor-pointer">
-          Film
+      <div className="flex items-center">
+        <Link
+          href="/"
+          className="mr-6 text-[13px] md:text-sm hover:text-gray-300 transition duration-300"
+        >
+          Home
         </Link>
-        <Link href="/about" className="cursor-pointer">
+        <Link
+          href="/about"
+          className="mr-6 text-[13px] md:text-sm hover:text-gray-300 transition duration-300"
+        >
           About
         </Link>
-        <ModeToggle />
+        {/* <Link
+          href="/film-making"
+          className="text-[13px] md:text-sm hover:text-gray-300 transition duration-300"
+        >
+          Film Making
+        </Link> */}
       </div>
+
+      <ModeToggle />
     </div>
   );
 };
