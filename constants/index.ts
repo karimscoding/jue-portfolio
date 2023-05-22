@@ -1,25 +1,34 @@
-import { djiOsmo } from "@/public/images";
+import {
+  djiOsmo,
+  djiOsmo1,
+  djiOsmo2,
+  djiOsmo5,
+  djiOsmo3,
+  
+} from "@/public/images";
 
 const videos = [
   {
-    title: "Sunset in Bali",
+    title: "Kuantan Pahang, Malaysia",
     image: djiOsmo,
   },
+
   {
-    title: "Sunset in Bali",
-    image: djiOsmo,
+    title: "Kuantan Pahang, Malaysia",
+    image: djiOsmo1,
   },
   {
-    title: "Sunset in Bali",
-    image: djiOsmo,
+    title: "Kuantan Pahang, Malaysia",
+    image: djiOsmo2,
   },
   {
-    title: "Sunset in Bali",
-    image: djiOsmo,
+    title: "Kuantan Pahang, Malaysia",
+    image: djiOsmo3,
   },
+
   {
-    title: "Sunset in Bali",
-    image: djiOsmo,
+    title: "George Town, Penang, Malaysia",
+    image: djiOsmo5,
   },
 ];
 
