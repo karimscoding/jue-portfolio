@@ -1,4 +1,5 @@
 import AboutCard from "@/components/AboutCard";
+import Hero from "@/components/Hero";
 import ImageSlider from "@/components/slider/ImageSlider";
 import React from "react";
 
@@ -28,6 +29,7 @@ const Home = () => {
 
   return (
     <div className="min-h-screen">
+    
       {/* {videos.map(({ id, snippet = {} }) => {
         const { title, thumbnails = {}, resourceId = {} } = snippet;
         const { medium } = thumbnails;
@@ -49,6 +51,7 @@ const Home = () => {
       })} */}
       <AboutCard />
       <ImageSlider />
+      <Hero />
       {/* <VideoCard /> */}
     </div>
   );

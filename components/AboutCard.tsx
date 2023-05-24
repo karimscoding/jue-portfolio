@@ -3,8 +3,8 @@
 import Image from "next/image";
 import { faisalKabir } from "@/public/images";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
-import { FaTiktok, FaYoutube } from "react-icons/fa";
-import { SiYoutube } from "react-icons/si";
+import { FaTiktok, } from "react-icons/fa";
+import { AiFillYoutube } from "react-icons/ai";
 
 const AboutCard = () => {
   return (
@@ -47,7 +47,7 @@ const AboutCard = () => {
                 target="_blank"
                 className="text-rose-500"
               >
-                <SiYoutube size={25} />
+                <AiFillYoutube size={25} />
               </a>
             </div>
           </div>
